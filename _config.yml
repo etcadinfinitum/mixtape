@@ -1,0 +1,13 @@
+# Site metadata
+title: Mixtape
+description: Mixtape is a vaporwave theme for Jekyll sites and GitHub Pages.
+
+# Analytics
+show_downloads: true
+google_analytics:
+
+# Theme data
+theme: jekyll-theme-mixtape
+sass:
+    style: compressed
+highlighter: rouge
