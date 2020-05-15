@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
     <head>
         <meta charset='utf-8'>
@@ -9,13 +10,27 @@
     </head>
 
     <body>
-
         {% include simple_header.html %}
-
+    
         <div class="content">
             <div class="container">
                 <section id="main_content">
-                    {{ content }}
+                    {% assign psize = site.posts | size %}
+                    {% if psize == 0 %}
+                    <h1>No posts here yet! Try again later.</h1>
+                    {% else %}
+                    {% for post in site.posts %}
+                        <div>
+                            <a href="{{ post.url }}">
+                                <h2>{{ post.title }}</h2>
+                            </a>
+                            <p>{{ post.date | date: "%a, %B %d, %Y" }}</p>
+                            <p>
+                                {{ post.description | strip_html | truncatewords: 50 }}
+                            </p>
+                        </div>
+                    {% endfor %}
+                    {% endif %}
                 </section>
             </div>
         </div>
@@ -32,3 +47,4 @@
         {% endif %}
     </body>
 </html>
+
