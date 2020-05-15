@@ -63,6 +63,40 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 200;
 }
 
+p, code {
+    font-size: 16px;
+}
+
+pre {
+    padding: 10px;
+    background-color: black;
+}
+
+code.highlighter-rouge {
+    background-color: black;
+    color: chartreuse;
+    padding: 0px 4px 0px 4px;
+}
+
+table {
+    border-collapse: collapse;
+    min-width: 50%;
+    max-width: 100%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+    background-color: darkslateblue;
+}
+
+tr {
+    border-bottom: 1px solid darkslateblue;
+}
+
 .content {
     background-image: linear-gradient(
         midnightblue,

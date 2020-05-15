@@ -8,8 +8,7 @@ google_analytics:
 
 # Theme data
 theme: jekyll-theme-mixtape
-sass:
-    style: compressed
+markdown: kramdown
 highlighter: rouge
 
 # Use YAML lists like this to dynamically choose names 
