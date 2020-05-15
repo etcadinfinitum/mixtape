@@ -11,3 +11,25 @@ theme: jekyll-theme-mixtape
 sass:
     style: compressed
 highlighter: rouge
+
+# Use YAML lists like this to dynamically choose names 
+# and relative/absolute links for the top-level links 
+# and navigation bar in the site.
+
+# header_links:
+#   - url: 127.0.0.1:4000
+#     name: View Site
+#   - url: https://google.com
+#     name: Google Search
+#   - url: facebook.com
+#     name: Facebook
+#   - url: canvas.uw.edu
+#     name: Canvas
+
+# nav_links:
+#   - url: /
+#     name: Home
+#   - url: /blog
+#     name: Dev Log
+#   - url: /about
+#     name: About
