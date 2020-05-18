@@ -21,7 +21,7 @@
                     {% else %}
                     {% for post in site.posts %}
                         <div>
-                            <a href="{{ post.url }}">
+                            <a href="{{ post.url | relative_url }}">
                                 <h2>{{ post.title }}</h2>
                             </a>
                             <p>{{ post.date | date: "%a, %B %d, %Y" }}</p>
