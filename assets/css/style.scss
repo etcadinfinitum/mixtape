@@ -33,11 +33,14 @@ header {
     .buffer {
         padding: 0px 0px 20px 0px;
     }
-    #title h1 {
-        font-family: 'Monoton', monospace;
-        font-size: 70px;
+    a#title {
         text-align: center;
         color: aqua;
+        text-decoration: none;
+        h1 {
+            font-family: 'Monoton', monospace;
+            font-size: 70px;
+        }
     }
     .navbar {
         background: black;
@@ -103,6 +106,17 @@ tr {
         black
     );
     flex-grow: 1;
+    a {
+        text-decoration: none;
+        font-weight: bolder;
+        color: deeppink;
+        &:hover {
+            color: chartreuse;
+        }
+        &:visited {
+            color: orangered;
+        }
+    }
 }
 
 .btn {
