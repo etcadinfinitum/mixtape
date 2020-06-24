@@ -35,9 +35,10 @@ def testing():
     print("Hello", "world!")
 ```
 
-Using Liquid templating:
+A very long line of code:
 
-{% highlight python %}
-def testing():
-    print("Hello", "world!")
-{% endhighlight %}
+```java
+public static void main(String[] args) {
+    // TODO: write some code here which gets executed as part of the righteous Java pizza store that every student has to write
+}
+```

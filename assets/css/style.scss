@@ -81,6 +81,32 @@ code.highlighter-rouge {
     padding: 0px 4px 0px 4px;
 }
 
+pre.highlight {
+    overflow-x: auto;
+}
+
+// all things scrollbar
+
+html {
+    --scrollbarBG: black;
+    --thumbBG: darkslateblue;
+}
+body::-webkit-scrollbar {
+    width: 11px;
+}
+body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+}
+
 table {
     border-collapse: collapse;
     min-width: 50%;
