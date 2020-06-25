@@ -7,7 +7,6 @@ show_downloads: true
 google_analytics:
 
 # Theme data
-theme: jekyll-theme-mixtape
 markdown: kramdown
 highlighter: rouge
 
@@ -16,10 +15,6 @@ plugins:
   - jekyll-seo-tag
 
 # Demo site specific elements
-github:
-    repository_url: https://github.com/etcadinfinitum/mixtape
-    zip_url: https://github.com/etcadinfinitum/mixtape/archive/master.zip
-    tar_url: https://github.com/etcadinfinitum/mixtape/archive/master.tar.gz
 baseurl: mixtape
 
 # Use YAML lists like this to dynamically choose names 
@@ -27,10 +22,10 @@ baseurl: mixtape
 # and navigation bar in the site.
 
 # For header links, the theme defaults to the following 
-# schema, provided these values are included in the 
-# site's _config.yml. If they are not included, the 
-# correpsonding buttons don't populate in deployments, 
-# though they do populate in builds.
+# schema.
+# If they are not explicitly included, the correpsonding 
+# buttons don't populate in builds, though they do 
+# populate in deployments to GitHub Pages.
 # -------
 # github:
 #   repository_url: https://github.com/my/repository
