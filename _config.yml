@@ -15,6 +15,13 @@ highlighter: rouge
 plugins:
   - jekyll-seo-tag
 
+# Demo site specific elements
+github:
+    repository_url: https://github.com/etcadinfinitum/mixtape
+    zip_url: https://github.com/etcadinfinitum/mixtape/archive/master.zip
+    tar_url: https://github.com/etcadinfinitum/mixtape/archive/master.tar.gz
+baseurl: mixtape
+
 # Use YAML lists like this to dynamically choose names 
 # and relative/absolute links for the top-level links 
 # and navigation bar in the site.
