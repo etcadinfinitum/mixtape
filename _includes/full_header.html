@@ -9,7 +9,7 @@
         <section id="downloads">
             {% if site.header_links %}
                 {% for link in site.header_links %}
-                <a href="{{ link.url }}" class="btn">{{ link.name }}</a>
+                <a href="{{ link.url | relative_url }}" class="btn">{{ link.name }}</a>
                 {% endfor %}
             {% else %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>

@@ -15,20 +15,41 @@ highlighter: rouge
 # and relative/absolute links for the top-level links 
 # and navigation bar in the site.
 
+# For header links, the theme defaults to the following 
+# schema, provided these values are included in the 
+# site's _config.yml. If they are not included, the 
+# correpsonding buttons don't populate in deployments, 
+# though they do populate in builds.
+# -------
+# github:
+#   repository_url: https://github.com/my/repository
+#   zip_url: https://github.com/my/repository/archive/branch.zip
+#   tar_url: https://github.com/my/repository/archive/branch.tar.gz
+
+# To customize header links, you need a list of items 
+# which include a name (button text) and URL to the 
+# resource.
+
 # header_links:
-#   - url: 127.0.0.1:4000
+#   - url: http://127.0.0.1:4000
 #     name: View Site
 #   - url: https://google.com
 #     name: Google Search
 #   - url: facebook.com
 #     name: Facebook
-#   - url: canvas.uw.edu
-#     name: Canvas
+#     Note that this is broken; the external protocol 
+#     is missing.
+#   - url: /
+#     name: ET Go Home
+
+# Likewise, navigation bar links can be customized and 
+# given custom text. These links can be relative or 
+# external.
 
 # nav_links:
 #   - url: /
 #     name: Home
 #   - url: /blog
 #     name: Dev Log
-#   - url: /about
-#     name: About
+#   - url: https://google.com
+#     name: Learn
