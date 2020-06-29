@@ -6,7 +6,7 @@
                 <a href="{{ link.url | relative_url }}">{{ link.name }}</a>
             {% endfor %}
         {% else %}
-        <a href="/">Home</a>
+        <a href="{{ "/" | relative_url }}">Home</a>
         <a href="{{ "/blog" | relative_url }}">Blog</a>
         <a href="{{ "/about" | relative_url }}">About</a>
         {% endif %}
