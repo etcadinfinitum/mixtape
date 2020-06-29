@@ -42,22 +42,25 @@ header {
             font-size: 70px;
         }
     }
-    .navbar {
-        background: black;
-        opacity: 0.75;
-        padding: 10px 0px;
-        .items {
-            display: flex;
-        }
-        a {
-            flex-grow: 1;
-            width: 100px;
-            color: aqua;
-            text-decoration: none;
-            font-family: 'Monoton', monospace;
-            font-size: 30px;
-        }
+}
+
+.navbar {
+    background: black;
+    opacity: 0.75;
+    padding: 10px 0px;
+    .items {
+        display: flex;
     }
+    a {
+        flex-grow: 1;
+        width: 100px;
+        color: aqua;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Monoton', monospace;
+        font-size: 30px;
+    }
+
 }
 
 h1, h2, h3, h4, h5, h6 {
