@@ -81,14 +81,11 @@ header {
     @media (max-width: 700px) {
         ul {
             flex-direction: column;
+            display: none;
         }
 
         li {
             text-align: left;
-        }
-
-        .item {
-            visibility: collapse;
         }
 
         .menu {
@@ -113,8 +110,8 @@ header {
             }
         }
 
-        #show-menu:checked ~ * .item {
-            visibility: visible;
+        #show-menu:checked ~ ul {
+            display: block;
         }
 
         #show-menu:checked ~ * i {
