@@ -1,11 +1,11 @@
 <div class="navbar">
     <div class="container">
         <div class="items">
+            <input type="checkbox" id="show-menu">
             <label for="show-menu" class="menu">
                  <p>Menu</p>
                  <i class="far fa-caret-square-down"></i>
             </label>
-            <input type="checkbox" id="show-menu">
             <ul>
             {% if site.nav_links %}
                 {% for link in site.nav_links %}

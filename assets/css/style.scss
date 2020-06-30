@@ -107,10 +107,18 @@ header {
             p {
                 font-family: 'Monoton', monospace;
             }
+            i {
+                transform: rotate(0deg);
+                transition: transform 0.4s;
+            }
         }
 
         #show-menu:checked ~ * .item {
             visibility: visible;
+        }
+
+        #show-menu:checked ~ * i {
+            transform: rotate(180deg);
         }
     }
 }
