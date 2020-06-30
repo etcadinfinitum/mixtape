@@ -1,0 +1,22 @@
+<div class="navbar">
+    <div class="container">
+        <div class="items">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu">
+                 <p>Menu</p>
+                 <i class="far fa-caret-square-down"></i>
+            </label>
+            <ul>
+            {% if site.nav_links %}
+                {% for link in site.nav_links %}
+                <li class="item"><a href="{{ link.url | relative_url }}">{{ link.name }}</a></li>
+                {% endfor %}
+            {% else %}
+                <li class="item"><a href="{{ "/" | relative_url }}">Home</a></li>
+                <li class="item"><a href="{{ "/blog" | relative_url }}">Blog</a></li>
+                <li class="item"><a href="{{ "/about" | relative_url }}">About</a></li>
+            {% endif %}
+            </ul>
+        </div>
+    </div>
+</div>
