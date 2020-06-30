@@ -49,9 +49,6 @@ header {
     opacity: 0.75;
     padding: 10px 0px;
 
-    .items {
-    }
-
     ul {
         margin: 0;
         padding: 0;
@@ -77,28 +74,43 @@ header {
         font-size: 30px;
     }
 
+    input {
+        display: none;
+    }
+
     @media (max-width: 700px) {
         ul {
             flex-direction: column;
         }
 
+        li {
+            text-align: left;
+        }
+
         .item {
-            display: none;
+            visibility: collapse;
         }
 
         .menu {
+            cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
+
             p, i {
                 margin: 0px;
                 padding: 0px;
                 color: aqua;
                 font-size: 30px;
             }
+
             p {
                 font-family: 'Monoton', monospace;
             }
+        }
+
+        #show-menu:checked ~ * .item {
+            visibility: visible;
         }
     }
 }
