@@ -1,7 +1,7 @@
 <h1 style="text-align: center;">Mixtape</h1>
 <h2 style="text-align: center;">A vaporwave theme for Jekyll sites.</h2>
 
-<div style="text-align: center;"><img style="width: 50%" src="./misc/boombox.jpg" alt="Vaporwave boombox"/></div>
+<img src="./misc/boombox.jpg" alt="Vaporwave boombox" width="300px" align="center"/>
 
 ## Philosophy
 
@@ -23,7 +23,7 @@ Lastly, the project serves as an experiment in avoiding JavaScript.
 
 | Desktop Site | Mobile Site | Expanded Menu (Mobile) |
 |----------------------------------|-------------|-------------|
-| ![desktop](./misc/desktop.png) | ![mobile](./misc/mobile.png) | ![mobile with expanded menu](./misc/mobile_expanded.png) |
+| ![desktop](./misc/desktop.png) | ![mobile](./misc/mobile.png){:width=200px} | ![mobile with expanded menu](./misc/mobile_expanded.png){:width=200px} |
 
 ## Usage
 
