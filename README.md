@@ -17,6 +17,14 @@ GitHub Pages themes.
 
 Lastly, the project serves as an experiment in avoiding JavaScript.
 
+## Example
+
+[View a live version here.](https://lizzy.wiki/mixtape/)
+
+| Desktop Site | Mobile Site | Expanded Menu (Mobile) |
+|--------------|-------------|------------------------|
+| ![desktop](./misc/desktop.png) | ![mobile](./misc/mobile.png) | ![mobile with expanded menu](./misc/mobile.png) |
+
 ## Usage
 
 Mixtape is not a whitelisted GitHub Pages theme. To use the Mixtape theme 
