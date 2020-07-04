@@ -101,7 +101,7 @@ change the navigation links to match the new path you chose.
 # use the /devlog path for posts instead of the standard /blog path
 collections:
   posts:
-    permalink: "/log/:year/:month/:day/:title/"
+    permalink: "/devlog/:year/:month/:day/:title/"
     output: true
 
 # change the navigation bar to use this new convention
