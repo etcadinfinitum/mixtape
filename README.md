@@ -8,9 +8,9 @@
 
 <div align="center">
     <h4>
-        <a href="#philosophy">Philosophy</a> | 
-        <a href="#example">Example</a> |
-        <a href="#usage">Usage</a> |
+        <a href="#philosophy">Philosophy</a> &#124; 
+        <a href="#example">Example</a> &#124; 
+        <a href="#usage">Usage</a> &#124; 
         <a href="#customization>Customization</a>
     </h4>
 </div>
