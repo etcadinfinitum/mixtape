@@ -6,15 +6,6 @@
 </h1>
 <h2 align="center">A vaporwave theme for Jekyll sites.</h2>
 
-<div align="center">
-    <h4>
-        <a href="#philosophy">Philosophy</a> &#124; 
-        <a href="#example">Example</a> &#124; 
-        <a href="#usage">Usage</a> &#124; 
-        <a href="#customization>Customization</a>
-    </h4>
-</div>
-
 <a name="philosophy"/>
 
 ## Philosophy
