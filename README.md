@@ -4,7 +4,7 @@
     <br>
     Mixtape
 </h1>
-<h2 align="center">A vaporwave theme for Jekyll sites.</h2>
+<h3 align="center">A vaporwave theme for Jekyll sites.</h3>
 
 <a name="philosophy"/>
 
@@ -30,7 +30,7 @@ Lastly, the project serves as an experiment in avoiding JavaScript.
 
 | Desktop Site | Mobile Site | Expanded Menu (Mobile) |
 |----------------------------------|-------------|-------------|
-| ![desktop](./misc/desktop.png) | <img src="./misc/mobile.png" alt="mobile" style="max-width: 160px"> | <img src="./misc/mobile_expanded.png" alt="mobile view with expanded menu" style="max-width: 160px"> |
+| <img src="./misc/desktop.png" alt="desktop"> | <img src="./misc/mobile.png" alt="mobile" width="200px" height="411px"> | <img src="./misc/mobile_expanded.png" alt="mobile view with expanded menu" width="200px" height="411px"> |
 
 <a name="usage"/>
 
