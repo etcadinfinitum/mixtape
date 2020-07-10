@@ -1,7 +1,21 @@
-<h1 style="text-align: center;">Mixtape</h1>
-<h2 style="text-align: center;">A vaporwave theme for Jekyll sites.</h2>
+<h1 align="center">
+    <br>
+    <img src="./misc/boombox.jpg" alt="Vaporwave boombox" width="300px" align="center"/>
+    <br>
+    Mixtape
+</h1>
+<h2 align="center">A vaporwave theme for Jekyll sites.</h2>
 
-<img src="./misc/boombox.jpg" alt="Vaporwave boombox" width="300px" align="center"/>
+<div align="center">
+    <h4>
+        <a href="#philosophy">Philosophy</a> | 
+        <a href="#example">Example</a> |
+        <a href="#usage">Usage</a> |
+        <a href="#customization>Customization</a>
+    </h4>
+</div>
+
+<a name="philosophy"/>
 
 ## Philosophy
 
@@ -17,13 +31,17 @@ GitHub Pages themes.
 
 Lastly, the project serves as an experiment in avoiding JavaScript.
 
+<a name="example"/>
+
 ## Example
 
 [View a live version here.](https://lizzy.wiki/mixtape/)
 
 | Desktop Site | Mobile Site | Expanded Menu (Mobile) |
 |----------------------------------|-------------|-------------|
-| ![desktop](./misc/desktop.png) | <img src="./misc/mobile.png" alt="mobile" style="max-width: 50%"> | <img src="./misc/mobile_expanded.png" alt="mobile view with expanded menu" style="max-width: 50%"> |
+| ![desktop](./misc/desktop.png) | <img src="./misc/mobile.png" alt="mobile" style="max-width: 160px"> | <img src="./misc/mobile_expanded.png" alt="mobile view with expanded menu" style="max-width: 160px"> |
+
+<a name="usage"/>
 
 ## Usage
 
@@ -44,7 +62,9 @@ in a GitHub Pages theme, use the whitelisted
     gem "github-pages", group: :jekyll_plugins
     ```
 
-## Customizing
+<a name="customization"/>
+
+## Customization
 
 ### Configuration variables
 
