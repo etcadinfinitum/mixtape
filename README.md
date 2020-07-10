@@ -30,7 +30,7 @@ Lastly, the project serves as an experiment in avoiding JavaScript.
 
 | Desktop Site | Mobile Site | Expanded Menu (Mobile) |
 |----------------------------------|-------------|-------------|
-| <img src="./misc/desktop.png" alt="desktop"> | <img src="./misc/mobile.png" alt="mobile" width="200px" height="411px"> | <img src="./misc/mobile_expanded.png" alt="mobile view with expanded menu" width="200px" height="411px"> |
+| <img src="./misc/desktop.png" alt="desktop"> | <img src="./misc/mobile.png" alt="mobile"> | <img src="./misc/mobile_expanded.png" alt="mobile view with expanded menu"> |
 
 <a name="usage"/>
 
