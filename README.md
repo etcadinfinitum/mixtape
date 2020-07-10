@@ -28,9 +28,9 @@ Lastly, the project serves as an experiment in avoiding JavaScript.
 
 [View a live version here.](https://lizzy.wiki/mixtape/)
 
-| Desktop Site | Mobile Site | Expanded Menu (Mobile) |
-|----------------------------------|-------------|-------------|
-| <img src="./misc/desktop.png" alt="desktop"> | <img src="./misc/mobile.png" alt="mobile"> | <img src="./misc/mobile_expanded.png" alt="mobile view with expanded menu"> |
+| Desktop Site | Mobile Site |
+|----------------------------------|-------------|
+| <img src="./misc/desktop.png" alt="desktop"> | <img src="./misc/mobile.gif" alt="mobile"> |
 
 <a name="usage"/>
 
